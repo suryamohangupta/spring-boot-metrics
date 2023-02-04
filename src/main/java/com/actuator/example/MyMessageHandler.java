@@ -1,13 +1,8 @@
-package com.khoubyari.example;
+package com.actuator.example;
 
-import org.springframework.context.annotation.Bean;
 import org.springframework.messaging.MessageHandler;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
-/**
- * Created by skhoubyari on 3/29/16.
- */
 @Service
 public class MyMessageHandler implements MessageHandler {
 
